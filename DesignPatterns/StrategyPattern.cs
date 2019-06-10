@@ -10,7 +10,7 @@ namespace DesignPatterns
     {
         static void main(string[] args)
         {
-            real nwduck = new real();
+            real  nwduck = new real();
             nwduck.setfly(new flywithwings());
             nwduck.setSound(new quack());
             nwduck.display();
