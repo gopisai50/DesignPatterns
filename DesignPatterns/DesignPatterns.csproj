@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Decoratingpattern.cs" />
+    <Compile Include="FactoryPattern.cs" />
     <Compile Include="ObserverPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

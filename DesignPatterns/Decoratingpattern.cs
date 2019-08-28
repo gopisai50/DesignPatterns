@@ -8,13 +8,14 @@ namespace DesignPatterns
 {
     class Decoratingpattern
     {
-        public static void Main()
+        public static void main()
         {
-            bevarages bev  = new HouseBlends ();
-     
+            bevarages bev  = new Espresso();
+            Console.WriteLine(bev.description() + bev.Cost().ToString());
             bev = new Mocha(bev);
-         
+            Console.WriteLine(bev.description() + bev.Cost().ToString());
             bev = new Mocha(bev);
+            Console.WriteLine(bev.description() + bev.Cost().ToString());
             bev = new soya(bev);
             Console.WriteLine(bev.description()+bev.Cost().ToString ());
             Console.ReadKey();
